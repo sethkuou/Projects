@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Xilinx\DualPortVGA\ipcore_dir\DualMemory.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">DualMemory</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 115: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 121: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 122: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 127: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 128: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 129: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 133: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 135: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 138: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 141: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 142: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 143: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 146: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 149: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 193: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 213: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 231: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 240: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 254: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 264: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 276: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 289: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 302: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 323: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 342: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 355: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Xilinx\DualPortVGA\Core.v" Line 363: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instr_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instr_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instr_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instr_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instr_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memaddr_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">core</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_draw[3]_GND_4_o_wide_mux_20_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instr_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instr_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instr_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instr_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instr_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memaddr_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">Display_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">memToSevSeg</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">state_FSM_FFd47</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">Core</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">jalReg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PC_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Core</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Green_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">DualVGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Green_1&gt; &lt;Green_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Blue_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">DualVGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Blue_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Red_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">DualVGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Red_1&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">core/bells/BellRing_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopBell</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">core/bells/Timer_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopBell</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_0&gt; &lt;core/right/ClockCounter_0&gt; &lt;core/up/ClockCounter_0&gt; &lt;core/left/ClockCounter_0&gt; &lt;VGA/cycle_1&gt; &lt;letMeSee/timer_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_1&gt; &lt;core/right/ClockCounter_1&gt; &lt;core/up/ClockCounter_1&gt; &lt;core/left/ClockCounter_1&gt; &lt;letMeSee/timer_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_2&gt; &lt;core/right/ClockCounter_2&gt; &lt;core/up/ClockCounter_2&gt; &lt;core/left/ClockCounter_2&gt; &lt;letMeSee/timer_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_3&gt; &lt;core/right/ClockCounter_3&gt; &lt;core/up/ClockCounter_3&gt; &lt;core/left/ClockCounter_3&gt; &lt;letMeSee/timer_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_4&gt; &lt;core/right/ClockCounter_4&gt; &lt;core/up/ClockCounter_4&gt; &lt;core/left/ClockCounter_4&gt; &lt;letMeSee/timer_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/up/ActiveState_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/up/DebouncedSignals_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_5&gt; &lt;core/right/ClockCounter_5&gt; &lt;core/up/ClockCounter_5&gt; &lt;core/left/ClockCounter_5&gt; &lt;letMeSee/timer_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_6&gt; &lt;core/right/ClockCounter_6&gt; &lt;core/up/ClockCounter_6&gt; &lt;core/left/ClockCounter_6&gt; &lt;letMeSee/timer_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/left/ActiveState_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/left/DebouncedSignals_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_7&gt; &lt;core/right/ClockCounter_7&gt; &lt;core/up/ClockCounter_7&gt; &lt;core/left/ClockCounter_7&gt; &lt;letMeSee/timer_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_8&gt; &lt;core/right/ClockCounter_8&gt; &lt;core/up/ClockCounter_8&gt; &lt;core/left/ClockCounter_8&gt; &lt;letMeSee/timer_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_9&gt; &lt;core/right/ClockCounter_9&gt; &lt;core/up/ClockCounter_9&gt; &lt;core/left/ClockCounter_9&gt; &lt;letMeSee/timer_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/down/ActiveState_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/DebouncedSignals_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockPulse</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockPulse&gt; &lt;core/right/ClockPulse&gt; &lt;core/up/ClockPulse&gt; &lt;core/left/ClockPulse&gt; &lt;VGA/cycle_0&gt; &lt;letMeSee/timer_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_10&gt; &lt;core/right/ClockCounter_10&gt; &lt;core/up/ClockCounter_10&gt; &lt;core/left/ClockCounter_10&gt; &lt;letMeSee/timer_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_11&gt; &lt;core/right/ClockCounter_11&gt; &lt;core/up/ClockCounter_11&gt; &lt;core/left/ClockCounter_11&gt; &lt;letMeSee/timer_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_12&gt; &lt;core/right/ClockCounter_12&gt; &lt;core/up/ClockCounter_12&gt; &lt;core/left/ClockCounter_12&gt; &lt;letMeSee/timer_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_13&gt; &lt;core/right/ClockCounter_13&gt; &lt;core/up/ClockCounter_13&gt; &lt;core/left/ClockCounter_13&gt; &lt;letMeSee/timer_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_14&gt; &lt;core/right/ClockCounter_14&gt; &lt;core/up/ClockCounter_14&gt; &lt;core/left/ClockCounter_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ClockCounter_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/down/ClockCounter_15&gt; &lt;core/right/ClockCounter_15&gt; &lt;core/up/ClockCounter_15&gt; &lt;core/left/ClockCounter_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/select/ActiveState_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/select/DebouncedSignals_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/right/ActiveState_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core/right/DebouncedSignals_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">core/state_FSM_FFd47</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopBell</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;letMeSee/Display_0&gt; </arg>
+</msg>
+
+</messages>
+

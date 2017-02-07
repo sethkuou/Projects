@@ -1,0 +1,46 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Dec 06 17:50:23 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Segments<0>" LOCATE = SITE "M13" LEVEL 1;
+COMP "Segments<1>" LOCATE = SITE "L14" LEVEL 1;
+COMP "Segments<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "Segments<3>" LOCATE = SITE "M14" LEVEL 1;
+COMP "Segments<4>" LOCATE = SITE "U18" LEVEL 1;
+COMP "Segments<5>" LOCATE = SITE "U17" LEVEL 1;
+COMP "Segments<6>" LOCATE = SITE "T18" LEVEL 1;
+COMP "Segments<7>" LOCATE = SITE "T17" LEVEL 1;
+COMP "Blue<1>" LOCATE = SITE "T7" LEVEL 1;
+COMP "Blue<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "Left" LOCATE = SITE "G11" LEVEL 1;
+COMP "Bells<0>" LOCATE = SITE "H3" LEVEL 1;
+COMP "Bells<1>" LOCATE = SITE "L7" LEVEL 1;
+COMP "Bells<2>" LOCATE = SITE "K6" LEVEL 1;
+COMP "Bells<3>" LOCATE = SITE "G3" LEVEL 1;
+COMP "Bells<4>" LOCATE = SITE "G1" LEVEL 1;
+COMP "Bells<5>" LOCATE = SITE "J7" LEVEL 1;
+COMP "Bells<6>" LOCATE = SITE "J6" LEVEL 1;
+COMP "Bells<7>" LOCATE = SITE "F2" LEVEL 1;
+COMP "Green<0>" LOCATE = SITE "P8" LEVEL 1;
+COMP "Green<1>" LOCATE = SITE "T6" LEVEL 1;
+COMP "Green<2>" LOCATE = SITE "V6" LEVEL 1;
+COMP "Buttons<0>" LOCATE = SITE "B8" LEVEL 1;
+COMP "Buttons<1>" LOCATE = SITE "C9" LEVEL 1;
+COMP "Buttons<2>" LOCATE = SITE "D9" LEVEL 1;
+COMP "Buttons<3>" LOCATE = SITE "A8" LEVEL 1;
+COMP "Buttons<4>" LOCATE = SITE "C4" LEVEL 1;
+COMP "HSync" LOCATE = SITE "N6" LEVEL 1;
+COMP "VSync" LOCATE = SITE "P7" LEVEL 1;
+COMP "Right" LOCATE = SITE "F10" LEVEL 1;
+COMP "Digits<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "Digits<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "Digits<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "Digits<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "ExternalClock" LOCATE = SITE "V10" LEVEL 1;
+COMP "Red<0>" LOCATE = SITE "U7" LEVEL 1;
+COMP "Red<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "Red<2>" LOCATE = SITE "N7" LEVEL 1;
+COMP "devLever" LOCATE = SITE "T5" LEVEL 1;
+SCHEMATIC END;
+

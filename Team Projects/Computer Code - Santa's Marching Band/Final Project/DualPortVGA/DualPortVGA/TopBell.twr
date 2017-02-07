@@ -1,0 +1,112 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml TopBell.twx TopBell.ncd -o TopBell.twr TopBell.pcf -ucf
+DualVGA.ucf
+
+Design file:              TopBell.ncd
+Physical constraint file: TopBell.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock ExternalClock
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Buttons<0>  |    1.710(R)|      SLOW  |    0.056(R)|      SLOW  |Clk               |   0.000|
+Buttons<1>  |    2.350(R)|      SLOW  |   -0.443(R)|      SLOW  |Clk               |   0.000|
+Buttons<2>  |    1.834(R)|      SLOW  |   -0.134(R)|      SLOW  |Clk               |   0.000|
+Buttons<3>  |    1.310(R)|      SLOW  |    0.236(R)|      SLOW  |Clk               |   0.000|
+Buttons<4>  |    2.620(R)|      SLOW  |   -0.651(R)|      SLOW  |Clk               |   0.000|
+devLever    |   11.928(R)|      SLOW  |   -1.669(R)|      FAST  |Clk               |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock ExternalClock to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Bells<0>    |         8.274(R)|      SLOW  |         4.596(R)|      FAST  |Clk               |   0.000|
+Bells<1>    |         8.245(R)|      SLOW  |         4.585(R)|      FAST  |Clk               |   0.000|
+Bells<2>    |         8.069(R)|      SLOW  |         4.481(R)|      FAST  |Clk               |   0.000|
+Bells<3>    |         8.107(R)|      SLOW  |         4.524(R)|      FAST  |Clk               |   0.000|
+Bells<4>    |         8.073(R)|      SLOW  |         4.500(R)|      FAST  |Clk               |   0.000|
+Bells<5>    |         8.032(R)|      SLOW  |         4.466(R)|      FAST  |Clk               |   0.000|
+Bells<6>    |         8.064(R)|      SLOW  |         4.503(R)|      FAST  |Clk               |   0.000|
+Bells<7>    |         8.278(R)|      SLOW  |         4.644(R)|      FAST  |Clk               |   0.000|
+Blue<1>     |         9.326(R)|      SLOW  |         5.279(R)|      FAST  |Clk               |   0.000|
+Blue<2>     |         9.314(R)|      SLOW  |         5.259(R)|      FAST  |Clk               |   0.000|
+Digits<0>   |        10.629(R)|      SLOW  |         5.820(R)|      FAST  |Clk               |   0.000|
+Digits<1>   |        10.470(R)|      SLOW  |         5.737(R)|      FAST  |Clk               |   0.000|
+Digits<2>   |        10.355(R)|      SLOW  |         5.738(R)|      FAST  |Clk               |   0.000|
+Digits<3>   |        10.435(R)|      SLOW  |         5.802(R)|      FAST  |Clk               |   0.000|
+Green<0>    |         8.960(R)|      SLOW  |         5.061(R)|      FAST  |Clk               |   0.000|
+Green<1>    |         9.164(R)|      SLOW  |         5.175(R)|      FAST  |Clk               |   0.000|
+Green<2>    |         9.065(R)|      SLOW  |         5.075(R)|      FAST  |Clk               |   0.000|
+HSync       |         9.875(R)|      SLOW  |         5.273(R)|      FAST  |Clk               |   0.000|
+LEDs<0>     |        10.779(R)|      SLOW  |         5.239(R)|      FAST  |Clk               |   0.000|
+LEDs<1>     |        11.494(R)|      SLOW  |         5.376(R)|      FAST  |Clk               |   0.000|
+LEDs<2>     |        11.011(R)|      SLOW  |         5.170(R)|      FAST  |Clk               |   0.000|
+LEDs<3>     |        12.196(R)|      SLOW  |         5.131(R)|      FAST  |Clk               |   0.000|
+LEDs<4>     |        11.626(R)|      SLOW  |         5.171(R)|      FAST  |Clk               |   0.000|
+LEDs<5>     |        10.473(R)|      SLOW  |         4.886(R)|      FAST  |Clk               |   0.000|
+Left        |         8.613(R)|      SLOW  |         4.932(R)|      FAST  |Clk               |   0.000|
+Red<0>      |         8.812(R)|      SLOW  |         4.964(R)|      FAST  |Clk               |   0.000|
+Red<1>      |         8.812(R)|      SLOW  |         4.964(R)|      FAST  |Clk               |   0.000|
+Red<2>      |         9.020(R)|      SLOW  |         5.093(R)|      FAST  |Clk               |   0.000|
+Right       |         8.921(R)|      SLOW  |         5.185(R)|      FAST  |Clk               |   0.000|
+Segments<0> |        10.529(R)|      SLOW  |         5.825(R)|      FAST  |Clk               |   0.000|
+Segments<1> |         7.838(R)|      SLOW  |         4.279(R)|      FAST  |Clk               |   0.000|
+Segments<2> |         7.579(R)|      SLOW  |         4.035(R)|      FAST  |Clk               |   0.000|
+Segments<3> |         7.620(R)|      SLOW  |         4.094(R)|      FAST  |Clk               |   0.000|
+Segments<4> |         7.527(R)|      SLOW  |         4.032(R)|      FAST  |Clk               |   0.000|
+Segments<5> |         7.426(R)|      SLOW  |         3.964(R)|      FAST  |Clk               |   0.000|
+Segments<6> |         7.130(R)|      SLOW  |         3.775(R)|      FAST  |Clk               |   0.000|
+Segments<7> |         7.096(R)|      SLOW  |         3.768(R)|      FAST  |Clk               |   0.000|
+VSync       |        10.287(R)|      SLOW  |         4.938(R)|      FAST  |Clk               |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock ExternalClock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ExternalClock  |   11.163|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Dec 06 17:50:48 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 267 MB
+
+
+

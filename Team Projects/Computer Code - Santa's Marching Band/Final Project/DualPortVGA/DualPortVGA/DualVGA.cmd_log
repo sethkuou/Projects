@@ -1,0 +1,134 @@
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/DualPortVGA/DualVGA.xst" -ofn "C:/Xilinx/DualPortVGA/DualVGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DualVGA.ucf -p xc6slx16-csg324-3 DualVGA.ngc DualVGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DualVGA_map.ncd DualVGA.ngd DualVGA.pcf 
+par -w -intstyle ise -ol high -mt off DualVGA_map.ncd DualVGA.ncd DualVGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DualVGA.twx DualVGA.ncd -o DualVGA.twr DualVGA.pcf -ucf DualVGA.ucf 
+bitgen -intstyle ise -f DualVGA.ut DualVGA.ncd 

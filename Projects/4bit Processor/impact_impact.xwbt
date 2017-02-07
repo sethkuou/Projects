@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=X:\.win_desktop\impact.xsl
+OUTFILE=X:\.win_desktop\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=X:\.win_desktop
+LICENSE=iMPACT
+USER_INFO=iMPACT

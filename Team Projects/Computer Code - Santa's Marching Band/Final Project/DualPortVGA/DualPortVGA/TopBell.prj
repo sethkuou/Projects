@@ -1,0 +1,7 @@
+verilog work "Debouncer.v"
+verilog work "BellController.v"
+verilog work "memToSevSeg.v"
+verilog work "ipcore_dir/DualMemory.v"
+verilog work "DualVGA.v"
+verilog work "Core.v"
+verilog work "TopBell.v"

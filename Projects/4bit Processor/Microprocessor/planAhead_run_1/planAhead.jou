@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Apr 25 13:08:05 2016
+# Process ID: 8152
+# Log file: X:/.win_desktop/Microprocessor/planAhead_run_1/planAhead.log
+# Journal file: X:/.win_desktop/Microprocessor/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source X:/.win_desktop/Microprocessor/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list {button[1]} {button[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {leds[3]} {leds[2]} {leds[1]} {leds[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {switches[7]} {switches[6]} {switches[5]} {switches[4]} {switches[3]} {switches[2]} {switches[1]} {switches[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list clock]]
+set_property iostandard LVCMOS33 [get_ports [list reset]]
+startgroup
+set_property package_pin V10 [get_ports clock]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports {button[1]}]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports {button[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {leds[3]}]]
+startgroup
+set_property package_pin T10 [get_ports {leds[0]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {leds[0]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {leds[1]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {leds[2]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {leds[3]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {switches[7]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {switches[6]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {switches[5]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {switches[4]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {switches[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {switches[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {switches[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {switches[0]}]
+endgroup
+save_constraints

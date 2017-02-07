@@ -1,0 +1,611 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: processor.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "processor.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "processor"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : processor
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\mux_2t01.v" into library work
+Parsing module <mux_2to1>.
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\mux_1to4_rxry.v" into library work
+Parsing module <mux_1to4_rxry>.
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\mux_1to4.v" into library work
+Parsing module <mux_1to4>.
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\eight_to_one_mux.v" into library work
+Parsing module <mux_4to1>.
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\DFlip_Flop.v" into library work
+Parsing module <DFlip_Flop>.
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\ROM.v" into library work
+Parsing module <ROM>.
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\LEDS.v" into library work
+Parsing module <LEDS>.
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\FSMC.v" into library work
+Parsing module <FSMC>.
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\FourBitRegister.v" into library work
+Parsing module <RegisterFile>.
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\debouncer.v" into library work
+Parsing module <debouncer>.
+WARNING:HDLCompiler:751 - "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\debouncer.v" Line 11: Redeclaration of ansi port PB_state is not allowed
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\processor.v" into library work
+Parsing module <processor>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <processor>.
+
+Elaborating module <debouncer>.
+
+Elaborating module <ALU>.
+
+Elaborating module <LEDS>.
+
+Elaborating module <ROM>.
+
+Elaborating module <RegisterFile>.
+
+Elaborating module <DFlip_Flop>.
+
+Elaborating module <mux_2to1>.
+
+Elaborating module <mux_1to4>.
+
+Elaborating module <mux_1to4_rxry>.
+
+Elaborating module <mux_4to1>.
+
+Elaborating module <FSMC>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <processor>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\processor.v".
+    Summary:
+	no macro.
+Unit <processor> synthesized.
+
+Synthesizing Unit <debouncer>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\debouncer.v".
+    Found 1-bit register for signal <PB_sync_1>.
+    Found 16-bit register for signal <PB_cnt>.
+    Found 1-bit register for signal <PB_state>.
+    Found 1-bit register for signal <PB_sync_0>.
+    Found 16-bit adder for signal <PB_cnt[15]_GND_2_o_add_4_OUT> created at line 23.
+    Found 1-bit comparator equal for signal <PB_state_PB_sync_1_equal_4_o> created at line 19
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <debouncer> synthesized.
+
+Synthesizing Unit <ALU>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\ALU.v".
+    Found 4-bit subtractor for signal <rx[3]_ry[3]_sub_7_OUT> created at line 37.
+    Found 4-bit adder for signal <rx[3]_ry[3]_add_8_OUT> created at line 39.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   5 Multiplexer(s).
+Unit <ALU> synthesized.
+
+Synthesizing Unit <LEDS>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\LEDS.v".
+    Found 4-bit register for signal <leds>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <LEDS> synthesized.
+
+Synthesizing Unit <ROM>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\ROM.v".
+    Summary:
+	no macro.
+Unit <ROM> synthesized.
+
+Synthesizing Unit <RegisterFile>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\FourBitRegister.v".
+    Summary:
+	no macro.
+Unit <RegisterFile> synthesized.
+
+Synthesizing Unit <DFlip_Flop>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\DFlip_Flop.v".
+    Found 4-bit register for signal <Q>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <DFlip_Flop> synthesized.
+
+Synthesizing Unit <mux_2to1>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\mux_2t01.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux_2to1> synthesized.
+
+Synthesizing Unit <mux_1to4>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\mux_1to4.v".
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <mux_1to4> synthesized.
+
+Synthesizing Unit <mux_1to4_rxry>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\mux_1to4_rxry.v".
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <mux_1to4_rxry> synthesized.
+
+Synthesizing Unit <mux_4to1>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\eight_to_one_mux.v".
+    Found 4-bit 4-to-1 multiplexer for signal <out> created at line 27.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux_4to1> synthesized.
+
+Synthesizing Unit <FSMC>.
+    Related source file is "\\chips.eng.utah.edu\home\sethk\.win_desktop\Microprocessor\FSMC.v".
+        idle = 7'b0000000
+        ROMactive = 7'b0000001
+        SingleStep = 7'b0000010
+        Load = 7'b0000011
+        ROMread = 7'b0000100
+        Not = 7'b0000101
+        RUNorSinglestep = 7'b0000110
+        ALU = 7'b0000111
+        Operation = 7'b0001000
+        Store = 7'b0001001
+    Found 8-bit register for signal <I>.
+    Found 4-bit register for signal <programCounter>.
+    Found 1-bit register for signal <ROM>.
+    Found 4-bit register for signal <load>.
+    Found 1-bit register for signal <loadSelect>.
+    Found 1-bit register for signal <rxEnable>.
+    Found 1-bit register for signal <ledEnable>.
+    Found 2-bit register for signal <rxSelect>.
+    Found 2-bit register for signal <rySelect>.
+    Found 4-bit register for signal <aluOperation>.
+    Found 6-bit register for signal <PS>.
+    Found finite state machine <FSM_0> for signal <PS>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 40                                             |
+    | Inputs             | 11                                             |
+    | Outputs            | 15                                             |
+    | Clock              | clock (rising_edge)                            |
+    | Reset              | reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000000                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit adder for signal <programCounter[3]_GND_12_o_add_56_OUT> created at line 187.
+    Found 4-bit comparator lessequal for signal <programCounter[3]_PWR_13_o_LessThan_56_o> created at line 187
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  28 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  30 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <FSMC> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 5
+ 16-bit adder                                          : 3
+ 4-bit adder                                           : 1
+ 4-bit addsub                                          : 1
+# Registers                                            : 27
+ 1-bit register                                        : 13
+ 16-bit register                                       : 3
+ 2-bit register                                        : 2
+ 4-bit register                                        : 8
+ 8-bit register                                        : 1
+# Comparators                                          : 4
+ 1-bit comparator equal                                : 3
+ 4-bit comparator lessequal                            : 1
+# Multiplexers                                         : 46
+ 1-bit 2-to-1 multiplexer                              : 4
+ 2-bit 2-to-1 multiplexer                              : 9
+ 4-bit 2-to-1 multiplexer                              : 21
+ 4-bit 4-to-1 multiplexer                              : 2
+ 5-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 6
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <debouncer>.
+The following registers are absorbed into counter <PB_cnt>: 1 register on signal <PB_cnt>.
+Unit <debouncer> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit addsub                                          : 1
+# Counters                                             : 3
+ 16-bit up counter                                     : 3
+# Registers                                            : 57
+ Flip-Flops                                            : 57
+# Comparators                                          : 4
+ 1-bit comparator equal                                : 3
+ 4-bit comparator lessequal                            : 1
+# Multiplexers                                         : 46
+ 1-bit 2-to-1 multiplexer                              : 4
+ 2-bit 2-to-1 multiplexer                              : 9
+ 4-bit 2-to-1 multiplexer                              : 21
+ 4-bit 4-to-1 multiplexer                              : 2
+ 5-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 6
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Controler/FSM_0> on signal <PS[1:10]> with one-hot encoding.
+----------------------
+ State  | Encoding
+----------------------
+ 000000 | 0000000001
+ 000001 | 0000000010
+ 000110 | 0000000100
+ 000010 | 0000001000
+ 000111 | 0000010000
+ 001001 | 0000100000
+ 000011 | 0001000000
+ 000100 | 0010000000
+ 000101 | 0100000000
+ 001000 | 1000000000
+----------------------
+
+Optimizing unit <processor> ...
+
+Optimizing unit <FSMC> ...
+
+Optimizing unit <debouncer> ...
+
+Optimizing unit <RegisterFile> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block processor, actual ratio is 2.
+FlipFlop Controler/rxSelect_0 has been replicated 2 time(s)
+FlipFlop Controler/rxSelect_1 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <processor> :
+	Found 2-bit shift register for signal <debreset/PB_sync_1>.
+	Found 2-bit shift register for signal <deb1/PB_sync_1>.
+	Found 2-bit shift register for signal <deb0/PB_sync_1>.
+Unit <processor> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 113
+ Flip-Flops                                            : 113
+# Shift Registers                                      : 3
+ 2-bit shift register                                  : 3
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : processor.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 275
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 45
+#      LUT2                        : 20
+#      LUT3                        : 15
+#      LUT4                        : 16
+#      LUT5                        : 23
+#      LUT6                        : 57
+#      MUXCY                       : 45
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 48
+# FlipFlops/Latches                : 116
+#      FD                          : 7
+#      FDE                         : 31
+#      FDR                         : 57
+#      FDRE                        : 20
+#      FDS                         : 1
+# Shift Registers                  : 3
+#      SRLC16E                     : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 11
+#      OBUF                        : 4
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             116  out of  18224     0%  
+ Number of Slice LUTs:                  182  out of   9112     1%  
+    Number used as Logic:               179  out of   9112     1%  
+    Number used as Memory:                3  out of   2176     0%  
+       Number used as SRL:                3
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    186
+   Number with an unused Flip Flop:      70  out of    186    37%  
+   Number with an unused LUT:             4  out of    186     2%  
+   Number of fully used LUT-FF pairs:   112  out of    186    60%  
+   Number of unique control sets:        17
+
+IO Utilization: 
+ Number of IOs:                          16
+ Number of bonded IOBs:                  16  out of    232     6%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 119   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.716ns (Maximum Frequency: 212.046MHz)
+   Minimum input arrival time before clock: 2.471ns
+   Maximum output required time after clock: 3.597ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 4.716ns (frequency: 212.046MHz)
+  Total number of paths / destination ports: 2116 / 222
+-------------------------------------------------------------------------
+Delay:               4.716ns (Levels of Logic = 4)
+  Source:            RegFile/reg2/Q_2 (FF)
+  Destination:       RegFile/reg0/Q_3 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: RegFile/reg2/Q_2 to RegFile/reg0/Q_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.981  RegFile/reg2/Q_2 (RegFile/reg2/Q_2)
+     LUT6:I0->O           11   0.203   0.883  RegFile/rxMux/Mmux_out31 (rx<2>)
+     LUT3:I2->O            8   0.205   0.907  myALU/Maddsub__n0030_lut<2>1 (myALU/Maddsub__n0030_lut<2>)
+     LUT6:I4->O            1   0.203   0.580  myALU/Mmux_out43_SW1 (N33)
+     LUT6:I5->O            1   0.205   0.000  RegFile/demux/Mmux_out041 (RegFile/muxOut0<3>)
+     FDE:D                     0.102          RegFile/reg0/Q_3
+    ----------------------------------------
+    Total                      4.716ns (1.365ns logic, 3.351ns route)
+                                       (28.9% logic, 71.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              2.471ns (Levels of Logic = 2)
+  Source:            switches<7> (PAD)
+  Destination:       Controler/I_7 (FF)
+  Destination Clock: clock rising
+
+  Data Path: switches<7> to Controler/I_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.944  switches_7_IBUF (switches_7_IBUF)
+     LUT6:I0->O            1   0.203   0.000  Controler/PS_PS[5]_switches[7]_select_83_OUT<7>1 (Controler/PS[5]_switches[7]_select_83_OUT<7>)
+     FDE:D                     0.102          Controler/I_7
+    ----------------------------------------
+    Total                      2.471ns (1.527ns logic, 0.944ns route)
+                                       (61.8% logic, 38.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            myLEDS/leds_3 (FF)
+  Destination:       leds<3> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: myLEDS/leds_3 to leds<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.447   0.579  myLEDS/leds_3 (myLEDS/leds_3)
+     OBUF:I->O                 2.571          leds_3_OBUF (leds<3>)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    4.716|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.30 secs
+ 
+--> 
+
+Total memory usage is 257292 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

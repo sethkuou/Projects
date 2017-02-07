@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\DualPortVGA\DualVGA.ncd
+OUTFILE=C:\Xilinx\DualPortVGA\DualVGA.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Xilinx\DualPortVGA
+LICENSE=WebPack
+USER_INFO=211147186_0_0_536

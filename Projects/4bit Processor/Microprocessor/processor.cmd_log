@@ -1,0 +1,47 @@
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 processor.ngc processor.ngd  
+xst -intstyle ise -ifn "D:/Microprocessor/processor.xst" -ofn "D:/Microprocessor/processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc processor.ucf -p xc6slx16-csg324-3 processor.ngc processor.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o processor_map.ncd processor.ngd processor.pcf 
+par -w -intstyle ise -ol high -mt off processor_map.ncd processor.ncd processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml processor.twx processor.ncd -o processor.twr processor.pcf -ucf processor.ucf 
+bitgen -intstyle ise -f processor.ut processor.ncd 
+xst -intstyle ise -ifn "X:/.win_desktop/Microprocessor/processor.xst" -ofn "X:/.win_desktop/Microprocessor/processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc processor.ucf -p xc6slx16-csg324-3 processor.ngc processor.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o processor_map.ncd processor.ngd processor.pcf 
+par -w -intstyle ise -ol high -mt off processor_map.ncd processor.ncd processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml processor.twx processor.ncd -o processor.twr processor.pcf -ucf processor.ucf 
+bitgen -intstyle ise -f processor.ut processor.ncd 
+xst -intstyle ise -ifn "X:/.win_desktop/Microprocessor/processor.xst" -ofn "X:/.win_desktop/Microprocessor/processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc processor.ucf -p xc6slx16-csg324-3 processor.ngc processor.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o processor_map.ncd processor.ngd processor.pcf 
+par -w -intstyle ise -ol high -mt off processor_map.ncd processor.ncd processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml processor.twx processor.ncd -o processor.twr processor.pcf -ucf processor.ucf 
+bitgen -intstyle ise -f processor.ut processor.ncd 

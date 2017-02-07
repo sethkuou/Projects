@@ -1,0 +1,113 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Nov 14 12:51:39 2016
+# Process ID: 6512
+# Log file: C:/Xilinx/DualPortVGA/planAhead_run_1/planAhead.log
+# Journal file: C:/Xilinx/DualPortVGA/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Xilinx/DualPortVGA/pa.fromHdl.tcl
+# create_project -name DualPortVGA -dir "C:/Xilinx/DualPortVGA/planAhead_run_1" -part xc6slx16csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "DualVGA.ucf" [current_fileset -constrset]
+Adding file 'C:/Xilinx/DualPortVGA/DualVGA.ucf' to fileset 'constrs_1'
+# add_files [list {ipcore_dir/DualMemory.ngc}]
+# set hdlfile [add_files [list {ipcore_dir/DualMemory.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DualVGA.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top DualVGA $srcset
+# add_files [list {DualVGA.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/DualMemory.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Xilinx/DualPortVGA/ipcore_dir/DualMemory.v" into library work
+Analyzing Verilog file "C:/Xilinx/DualPortVGA/DualVGA.v" into library work
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design DualMemory.ngc ...
+WARNING:NetListWriters:298 - No output is written to DualMemory.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file DualMemory.edif ...
+ngc2edif: Total memory usage is 88936 kilobytes
+
+Reading core file 'C:/Xilinx/DualPortVGA/ipcore_dir/DualMemory.ngc' for (cell view 'DualMemory', library 'work', file 'DualMemory.v')
+Parsing EDIF File [./.Xil/PlanAhead-6512-AsusX/ngc2edif/DualMemory.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-6512-AsusX/ngc2edif/DualMemory.edif]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Xilinx/DualPortVGA/DualVGA.ucf]
+Finished Parsing UCF File [C:/Xilinx/DualPortVGA/DualVGA.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: de1e4f33
+open_rtl_design: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 606.145 ; gain = 205.219
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T7 [get_ports {Blue[2]}]
+endgroup
+startgroup
+set_property package_pin R7 [get_ports {Blue[2]}]
+endgroup
+startgroup
+set_property package_pin T7 [get_ports {Blue[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Green[2]}]]
+startgroup
+set_property package_pin P8 [get_ports {Green[0]}]
+endgroup
+startgroup
+set_property package_pin T6 [get_ports {Green[1]}]
+endgroup
+startgroup
+set_property package_pin V6 [get_ports {Green[2]}]
+endgroup
+startgroup
+set_property package_pin U7 [get_ports {Red[0]}]
+endgroup
+startgroup
+set_property package_pin V7 [get_ports {Red[1]}]
+endgroup
+startgroup
+set_property package_pin N7 [get_ports {Red[2]}]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports Clock]
+endgroup
+startgroup
+set_property package_pin N6 [get_ports HSync]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P7 [get_ports VSync]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Xilinx/DualPortVGA\planAhead_pid6512.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Nov 14 12:54:24 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead

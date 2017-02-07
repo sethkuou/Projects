@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Nov 14 12:51:39 2016
+# Process ID: 6512
+# Log file: C:/Xilinx/DualPortVGA/planAhead_run_1/planAhead.log
+# Journal file: C:/Xilinx/DualPortVGA/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Xilinx/DualPortVGA/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T7 [get_ports {Blue[2]}]
+endgroup
+startgroup
+set_property package_pin R7 [get_ports {Blue[2]}]
+endgroup
+startgroup
+set_property package_pin T7 [get_ports {Blue[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Green[2]}]]
+startgroup
+set_property package_pin P8 [get_ports {Green[0]}]
+endgroup
+startgroup
+set_property package_pin T6 [get_ports {Green[1]}]
+endgroup
+startgroup
+set_property package_pin V6 [get_ports {Green[2]}]
+endgroup
+startgroup
+set_property package_pin U7 [get_ports {Red[0]}]
+endgroup
+startgroup
+set_property package_pin V7 [get_ports {Red[1]}]
+endgroup
+startgroup
+set_property package_pin N7 [get_ports {Red[2]}]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports Clock]
+endgroup
+startgroup
+set_property package_pin N6 [get_ports HSync]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P7 [get_ports VSync]
+endgroup
+save_constraints

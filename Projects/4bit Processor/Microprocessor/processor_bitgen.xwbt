@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=X:\.win_desktop\Microprocessor\processor.ncd
+OUTFILE=X:\.win_desktop\Microprocessor\processor.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=X:\.win_desktop\Microprocessor
+LICENSE=WebPack
+USER_INFO=210784831_0_0_310
